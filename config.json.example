@@ -1,47 +1,8 @@
 {
   "url": "https://hook.finandy.com/xxxx",
   "data":{
-    "name": "Hook 80288",
+    "name": "Hook xxx",
     "secret": "xxx",
     "side": "{{strategy.order.action}}",
-    "symbol": "{{ticker}}",
-    "open": {
-      "amountType": "sumUsd",
-      "amount": "80"
-    },
-    "sl": {
-      "enabled": true,
-      "ofs": 2,
-      "orderType": "stop-market"
-    },
-    "tp": {
-      "enabled": true,
-      "orders": [
-        {
-          "ofs": "0.5",
-          "piece": "25.0"
-        },
-        {
-          "ofs": "1.0",
-          "piece": "25.0"
-        },
-        {
-          "ofs": "1.5",
-          "piece": "25.0"
-        },
-        {
-          "ofs": "2.0",
-          "piece": "25.0"
-        }
-      ],
-      "qty": "4"
-    },
-    "slx": {
-      "mode": "tp",
-      "tpNum": 1,
-      "orderType": "stop-market",
-      "always": true,
-      "enabled": true
-    }
-  }
+    "symbol": "{{ticker}}"
 }
